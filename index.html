@@ -9,130 +9,255 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    
     <title>U2S2E2</title>
   </head>
   <body>
     <!-- NAVBAR -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="./assets/img/logo-travel-custom.png" alt="logo-agency" class="img-fluid" style="max-height: 60px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Destinazioni hot</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Viaggia in gruppo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tema Horror</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Recensioni</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Cerca destinazioni freak" aria-label="Search" />
-            <button class="btn btn-outline-warning" type="submit">Cerca</button>
-          </form>
+  
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assets/img/Logo-travel-g.png"
+              alt="logo-agency"
+              class="img-fluid"
+              style="max-height: 60px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Tema Horror</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Destinazioni hot</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Last Minute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Recensioni</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Cerca destinazioni freak"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-danger" type="submit">Cerca</button>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    
 
     <!-- JUMBOTRON -->
 
     <div class="container my-4">
       <div class="jumbotron bg-light p-5 rounded-3">
-        <h1 class="display-4 text-warning">TravelFreak - Express Yourself</h1>
+        <h1 class="display-4 text-danger">TravelFreak - Stay freaky, travel geeky</h1>
         <hr class="my-4" />
         <p class="fs-3"><em>Scopri le destinazioni più freak del momento!</em></p>
         <p class="lead">
-          <a class="btn btn-info btn-lg text-white font-weight-bold" href="#" role="button"
+          <a class="btn btn-dark btn-lg text-white font-weight-bold" href="#" role="button"
             ><strong>Prenota ora</strong></a
           >
         </p>
       </div>
 
-      <!-- SALDI -->
+      <!-- TEMA HORROR -->
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 gy-3 my-4">
+      <div class="">
+        <h2 class="mt-4"></h2>
+      </div>
+      <div>
+        <!-- questo div serve per il collapse -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 gy-3 mb-4">
+          <!-- i figli di un row-cols-* devono essere delle colonne definite come "col" semplici, senza breakpoint, senza valori numerici -->
+          <div class="col">
+            <div class="card border border-dark border-2">
+              <img src="./assets/img/freak-show-set.jpg" class="card-img-top" alt="tiny car in Milan" />
+              <div class="card-body">
+                <h5 class="card-title text-danger">Freak Show set</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">New Orleans,</h6>
+                <p class="card-text">Scopri il set originale della quarta stagione di AHS!</p>
+                <a class="btn btn-danger text-white btn-lg" href="#" role="button">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-dark border-2">
+              <img src="./assets/img/freak-show-set.jpg" class="card-img-top" alt="tiny car in Milan" />
+              <div class="card-body">
+                <h5 class="card-title text-danger">Freak Show set</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">New Orleans,</h6>
+                <p class="card-text">Scopri il set originale della quarta stagione di AHS!</p>
+                <a class="btn btn-danger text-white btn-lg" href="#" role="button">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-dark border-2">
+              <img src="./assets/img/freak-show-set.jpg" class="card-img-top" alt="tiny car in Milan" />
+              <div class="card-body">
+                <h5 class="card-title text-danger">Freak Show set</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">New Orleans,</h6>
+                <p class="card-text">Scopri il set originale della quarta stagione di AHS!</p>
+                <a class="btn btn-danger text-white btn-lg" href="#" role="button">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col d-md-none d-xl-block">
+            <div class="card border border-dark border-2">
+              <img src="./assets/img/freak-show-set.jpg" class="card-img-top" alt="tiny car in Milan" />
+              <div class="card-body">
+                <h5 class="card-title text-danger">Freak Show set</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">New Orleans,</h6>
+                <p class="card-text">Scopri il set originale della quarta stagione di AHS!</p>
+                <a class="btn btn-danger text-white btn-lg" href="#" role="button">Prenota</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DESTINAZIONI HOT -->
+    <div class="container">
+      <div class="">
+        <h2 class="mt-4">Destinazioni Hot</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-3 gy-3 mb-4">
         <!-- i figli di un row-cols-* devono essere delle colonne definite come "col" semplici, senza breakpoint, senza valori numerici -->
         <div class="col">
-          <div class="card">
+          <div class="card position-relative shadow">
+            <span class="badge text-white bg-dark position-absolute" style="top: 10px; right: 10px">SCOPRI</span>
             <img src="./assets/img/freak-show-set.jpg" class="card-img-top" alt="tiny car in Milan" />
             <div class="card-body">
               <h5 class="card-title text-danger">Freak Show set</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">New Orleans,</h6>
               <p class="card-text">Scopri il set originale della quarta stagione di AHS!</p>
-              <a class="btn btn-warning text-white btn-lg" href="#" role="button">Prenota</a>
+              <a class="btn btn-danger text-white btn-lg" href="#" role="button">Prenota</a>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card position-relative shadow">
+            <span class="badge text-white bg-dark position-absolute" style="top: 10px; right: 10px">SCOPRI</span>
             <img src="./assets/img/freak-show-set.jpg" class="card-img-top" alt="tiny car in Milan" />
             <div class="card-body">
               <h5 class="card-title text-danger">Freak Show set</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">New Orleans,</h6>
               <p class="card-text">Scopri il set originale della quarta stagione di AHS!</p>
-              <a class="btn btn-warning text-white btn-lg" href="#" role="button">Prenota</a>
+              <a class="btn btn-danger text-white btn-lg" href="#" role="button">Prenota</a>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card position-relative shadow">
+            <span class="badge text-white bg-dark position-absolute" style="top: 10px; right: 10px">SCOPRI</span>
             <img src="./assets/img/freak-show-set.jpg" class="card-img-top" alt="tiny car in Milan" />
             <div class="card-body">
               <h5 class="card-title text-danger">Freak Show set</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">New Orleans,</h6>
               <p class="card-text">Scopri il set originale della quarta stagione di AHS!</p>
-              <a class="btn btn-warning text-white btn-lg" href="#" role="button">Prenota</a>
+              <a class="btn btn-danger text-white btn-lg" href="#" role="button">Prenota</a>
             </div>
           </div>
         </div>
         <div class="col d-md-none d-xl-block">
-          <div class="card">
+          <div class="card position-relative shadow">
+            <span class="badge text-white bg-dark position-absolute" style="top: 10px; right: 10px">SCOPRI</span>
             <img src="./assets/img/freak-show-set.jpg" class="card-img-top" alt="tiny car in Milan" />
             <div class="card-body">
               <h5 class="card-title text-danger">Freak Show set</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">New Orleans,</h6>
               <p class="card-text">Scopri il set originale della quarta stagione di AHS!</p>
-              <a class="btn btn-warning text-white btn-lg" href="#" role="button">Prenota</a>
+              <a class="btn btn-danger text-white btn-lg" href="#" role="button">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-md-none d-xl-block">
+          <div class="card position-relative shadow">
+            <span class="badge text-white bg-dark position-absolute" style="top: 10px; right: 10px">SCOPRI</span>
+            <img src="./assets/img/freak-show-set.jpg" class="card-img-top" alt="tiny car in Milan" />
+            <div class="card-body">
+              <h5 class="card-title text-danger">Freak Show set</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">New Orleans,</h6>
+              <p class="card-text">Scopri il set originale della quarta stagione di AHS!</p>
+              <a class="btn btn-danger text-white btn-lg" href="#" role="button">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-md-none d-xl-block">
+          <div class="card position-relative shadow">
+            <span class="badge text-white bg-dark position-absolute" style="top: 10px; right: 10px">SCOPRI</span>
+            <img src="./assets/img/freak-show-set.jpg" class="card-img-top" alt="tiny car in Milan" />
+            <div class="card-body">
+              <h5 class="card-title text-danger">Freak Show set</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">New Orleans,</h6>
+              <p class="card-text">Scopri il set originale della quarta stagione di AHS!</p>
+              <a class="btn btn-danger text-white btn-lg" href="#" role="button">Prenota</a>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- FOOTER -->
-
-    <div class="container-fluid">
+    <!-- LAST MINUTE -->
+    <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <footer class="py-3">
-            <p>&copy; 2023 Your Website</p>
-          </footer>
+        <div class="col">
+          <div class="card position-relative shadow">
+            <img src="./assets/img/coven-set.jpg" class="card-img-top" alt="Freak Show Set" />
+          </div>
+        </div>
+
+        <div class="col d-flex align-items-center justify-content-start">
+          <div class="text-end">
+            <h2 class="h1 mt-4">Last Minute</h1>
+            <h5 class="text-danger">Dal 1.11.23 al 5.11.23</h5>
+            <p class="text-danger">Sconto del 30% se viaggi in due!</p>
+            <button class="btn btn-dark text-white btn-lg" href="#" role="button">Prenota</button>
+          </div>
         </div>
       </div>
     </div>
+    
+    <!-- FOOTER -->
 
+  </div>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12 text-center text-white bg-dark border-bottom border-body p-4" data-bs-theme="dark">
+      <div class="col d-flex justify-content-center">
+        <a class="btn btn-dark border-danger text-danger btn-lg" href="#" role="button">Prenota</a>
+      </div>
+      <footer class="py-3">
+        <p>&copy; 2023 TravelFreak</p>
+        <div class="container-fluid">
+          <div class="row">
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
