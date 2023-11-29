@@ -71,7 +71,7 @@
 
     <div class="container my-4">
       <div class="jumbotron bg-light p-5 rounded-3">
-        <h1 class="display-4 text-danger">TravelFreak - Stay freaky, travel geeky</h1>
+        <h1 class="display-4 text-danger">TravelFreak - <span class="small">Stay freaky, travel geeky</span></h1>
         <hr class="my-4" />
         <p class="fs-3"><em>Scopri le destinazioni più freak del momento!</em></p>
         <p class="lead">
@@ -81,10 +81,10 @@
         </p>
       </div>
 
-      <!-- TEMA HORROR -->
+      <!-- TOP PICKS -->
 
       <div class="">
-        <h2 class="mt-4"></h2>
+        <h2 class="mt-4">Top Picks della settimana</h2>
       </div>
       <div>
         <!-- questo div serve per il collapse -->
@@ -221,7 +221,11 @@
     </div>
 
     <!-- LAST MINUTE -->
+
     <div class="container">
+      <div class="">
+        <h2 class="mt-4">Last Minute</h2>
+      </div>
       <div class="row">
         <div class="col">
           <div class="card position-relative shadow">
@@ -231,15 +235,39 @@
 
         <div class="col d-flex align-items-center justify-content-start">
           <div class="text-end">
-            <h2 class="h1 mt-4">Last Minute</h1>
-            <h5 class="text-danger">Dal 1.11.23 al 5.11.23</h5>
-            <p class="text-danger">Sconto del 30% se viaggi in due!</p>
-            <button class="btn btn-dark text-white btn-lg" href="#" role="button">Prenota</button>
+            <h2 class="h1 mt-4">AHS Coven</h1>
+            <h5 class="text-dark">Dal 1.11.23 al 5.11.23</h5>
+            <p class="text-danger"><strong>Scopri il set di AHS Coven <br> al 30% di sconto!</strong></p>
+            <button class="btn btn-dark text-white btn-lg rounded-pill" href="#" role="button">Prenota</button>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- LASCIATI ISPIRARE -->
     
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="/assets/img/murder-house-set.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/assets/img/asylum-set.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/coven-set.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
     <!-- FOOTER -->
 
   </div>
